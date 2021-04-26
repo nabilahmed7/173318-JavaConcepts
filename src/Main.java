@@ -45,13 +45,11 @@ public class Main {
 
             }
 
-
-
-
         } catch (Exception e) {
             System.out.println("You Can Add Only Five Characters At A Time");
 
         }
+
         for (int i=0; i < characters.length; i++){
             System.out.println(characters[i].getClass().getName());
        }
